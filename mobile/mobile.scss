@@ -1,0 +1,63 @@
+.list-container #header-list-area {
+    margin-top: -20px;
+    height: 8px;
+    content: " ";
+}
+.list-controls .navigation-container {
+    margin: 5px 0 0;
+}
+.alert.alert-info.clickable {
+    margin-bottom: 10px;
+}
+.category-box {display:none!important}
+#list-area {
+    border-bottom:none!important;
+    margin-bottom:0px!important;
+}
+.regular {
+    padding: 0 0px;
+    border-radius: 0 0 0 0;
+}
+.topic-post.regular {
+    border-top: 1px #c5c5c5 solid !important;
+    border-radius: none!important;
+}.topic-status-info {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.category-list th    {
+    padding-left: 0px!important;
+}
+.category-list thead {
+    border-bottom:200px solid red!important;    
+}
+.topic-list-item td:first-child {
+   border-bottom: 1.5px solid #ccc;
+   border-top: 1.5px solid #ccc;
+   padding: 15px 0 10px;
+}
+.topic-list .topic-list-item-separator {
+    background-color: #ff0000;
+}
+#topic-footer-buttons {
+    border: none; 
+    background-color: $secondary;
+    margin: 0px 0 20px 0px;
+    padding: 20px 20px 5px 20px;
+}
+/***** Buttons After Header ****/
+.twit-pat-button-l {
+	width: 150px;
+	height: auto;
+    float: left;
+    padding: 0 0 0px 0;
+}
+.twit-pat-button-r {
+	width: 150px;
+	height: auto;
+    float: right;
+    padding: 0 0 0px 0;
+}
+.twit-pat-button-r:hover, .twit-pat-button-l:hover {
+	opacity: .8
+}

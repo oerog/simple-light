@@ -1,0 +1,209 @@
+/***********  Sidebars ****************/
+#hide-sidebar {
+    font-size:1em;
+    float:right;
+   background-color: #fff;
+    padding: 3px 10px;
+    color: #aaa;
+    border:none;
+}
+#hide-sidebar:hover {
+    cursor: pointer;
+}
+#sidebar {
+    width: 0;
+    max-width: 400px;
+    float: left;
+    background-color:#fff;
+    position: relative;
+    z-index: 1;
+    margin-left: 0px;
+    margin-right: 30px;
+}
+.sidebar-wrap, .topic-list {
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.2);
+}
+.sidebar-cat-head, .topic-list thead  {
+    background-color: #fefefe;
+    padding: 12px 15px;
+    color: #87939e;    
+    border-top: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0,0,0,0.2) !important;
+}
+thead tr {border-bottom:none;}
+tbody {border-top:none};
+.sidebar-cat-wrapper {
+    background-color: #fff;
+    padding: 10px 20px 10px 15px;
+    border-bottom: 1px rgba(0,0,0,0.2) solid;
+}
+
+.sidebar-cat-title {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.sidebar-topic-count {
+    float: right;
+    padding-left: 10px;
+}
+.sidebar-cat-desc {
+    padding: 10px 10px 10px 5px;
+}
+
+/***********  end sidebar ******************/
+
+
+.category-list .featured-topic {
+    margin: 10px 20px 0 0;
+ }
+ .details, .top-section {
+     padding: 20px;
+}
+.user-primary-navigation {
+    margin: 20px 0 10px;
+}
+#list-area {
+    border-bottom:40px solid #fcfcfc!important;
+    margin-bottom:0px!important;
+}
+.topic-body {
+    border-top:solid 2px  #ccc!important;
+   padding: 25px 10px 0 20px;
+}
+.topic-body .topic-meta-data,  {
+    padding: 0 11px 0.25em 20px;
+}
+.topic-avatar {
+    border-top: 2px solid #ccc;
+     padding-left: 0!important;   
+          padding-top: 25px
+}
+.nav-pills>li a.active {
+    background-color: #5485CC;
+}
+.nav-pills>li a.hover {
+    background-color: #85C8FF;
+}
+.subcategory .category-name {
+        font-size: 1em; 
+        color:#2B5491
+}
+/**********embedded posts*************/
+
+.embedded-posts.top .topic-body {
+   border-top:none !important;
+    padding-top: 15px;
+}
+.embedded-posts.top.topic-body {
+    border: 2px solid #888;
+    border-top:2px solid #888 !important;
+    border-bottom:none;
+    padding: 0;
+}
+.embedded-posts .topic-avatar {
+    padding-left: 25px !important;
+    padding-top: 15px;
+}
+.embedded-posts .collapse-down, .embedded-posts .collapse-up {
+    border: 1px solid #888888;
+}
+/*tr[data-category-id="5"], .category[data-category-id="5"] {
+	border-right:solid 3px #2572e4!important;	
+
+}
+tr[data-category-id="8"], .category[data-category-id="8"] {
+	border-right:solid 3px #6d5bd1 !important;
+}
+tr[data-category-id="15"], .category[data-category-id="15"] {
+	border-right:solid 3px #35AD6A !important;
+}
+tr[data-category-id="4"], .category[data-category-id="4"]  {
+	border-right: 3px solid #ff7114!important;
+}
+tr[data-category-id="3"], .category[data-category-id="3"] {
+	border-right:solid 3px #2572e4 !important;
+}*/
+/*.main-link {
+	display:table-cell;
+	width:80%;
+	max-width: 350px; 
+	padding-left: 1em;
+}*/
+.category-list tbody .category {border-left: none}
+
+/************** Removed this *******************/
+/*tr[data-category-id]{
+  	border-bottom: 1px inset #999;
+}*/
+/*.category-bgd {
+	background-color:#fafafa;
+	border-left: solid 6px #fafafa;
+}*/
+
+.category-list th {
+	color:#000;
+}
+.main-forums {
+	border-left:solid 6px #0084FF;
+	border-bottom: 1px outset #0084FF;
+}
+.ot-forums {
+	border-left:solid 6px #09F;
+	border-bottom: 1px outset #09F;
+}
+.about-forums {
+	border-left:solid 6px #00AEFF;
+	border-bottom: 1px outset #00AEFF;
+}
+.lounge-forums {
+	border-left:solid 6px #A461EF;
+	border-bottom: 1px outset #A461EF;
+}
+.staff-forums {
+	border-left:solid 6px #35AD6A;
+	border-bottom: 1px outset #35AD6A;
+}
+.topic-avatar {
+  width: 90px;
+  .avatar {
+    width: 90px;
+    height: 90px;
+  }
+}
+.embedded-posts .topic-avatar {
+  width: 45px;
+  img.avatar {
+    width: 45px;
+    height: 45px;
+  }
+}
+@media (max-width: 629px) {
+    .topic-avatar {
+      width: 45px;
+      .avatar {
+        width: 45px;
+        height: 45px;
+      }
+    }
+}
+@media (max-width: 880px) and (min-width: 630px){
+    .topic-body {
+        width: calc(100% - 120px);
+    }
+}
+/*-----This fixes a larger avatar spacing bug with the timeline scroller-----*/
+.timeline-container {
+    margin-left: 802px;
+}
+.twit-pat-wrap {
+    float: right;
+    padding-bottom: 20px;
+}
+.twit-pat-button {
+	height: auto;
+	width: 200px;
+	margin-left: 20px
+}
+.twit-pat-button:hover {
+	opacity: .8
+}
