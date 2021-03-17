@@ -11,7 +11,7 @@
     "logo-test": "assets/logo-test.png"
   },
   "color_schemes": {
-    "light-oreo": {
+    "color-test": {
       "primary": "22262a",
       "secondary": "fefefe",
       "tertiary": "2572e4",
@@ -22,18 +22,6 @@
       "danger": "FF7114",
       "success": "85cc54",
       "love": "DE0100"
-    },
-    "erase": {
-      "primary": "222222",
-      "secondary": "ffffff",
-      "tertiary": "2572e4",
-      "quaternary": "5485cc",
-      "header_background": "ffffff",
-      "header_primary": "a73315",
-      "highlight": "9edaf5",
-      "danger": "e45735",
-      "success": "85cc54",
-      "love": "de0100"
     }
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
